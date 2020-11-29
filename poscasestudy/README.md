@@ -1,14 +1,22 @@
-# poscasestudy
+Group : Al-Khawarizmi
+Group Member : MUHAMMAD SILMI BISYARI BIN MOHD KHAIRANI 1813633
+               MUHAMMAD FARIS ASYFRAAF BIN HARUN 1710541
+               MUNIRAH BINTI MOHD AZIZ 1716274
 
-A new Flutter package.
+The Assigned task : 1)  Muhammad Silmi Bisyari Bin Mohd Khairani
+                        - Create main.dart for the case study
+                        -
+                    2)  Muhammad Faris Asyfraaf bin Harun
+                        - calculation for gst
+                        - calculation for promotion or discount
+                    3)  Munirah Binti Mohd Aziz
+                        - Create food inventory
+                        - Calculation for final amount price.
 
-## Getting Started
+Our team require to build a POS system where store the information
+of the inventory and calculate the prices of the inventory or goods
+with gst and promotion items. The requirement of the case study are :-
+    1)Displayed inventory with numbers
+    2)Display final amount of the inventory
+    3)Display the calculation after the discount and gst
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
