@@ -1,11 +1,12 @@
 import 'dart:io';
-import "Discount.dart";
+import 'Discount.dart';
 void main(){
-
+  DateTime today = new DateTime.now();
   var newlist = new List();
   var title = """ 
   WELCOME TO THE POS SUPERMARKET
   ==============================
+  $today
   """;
   print(title);
 
@@ -18,5 +19,5 @@ void main(){
   newlist.add(newnumber.getnumber);
   print(newlist);
 
-
+  print(today);
 }
