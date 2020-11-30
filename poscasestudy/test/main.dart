@@ -1,9 +1,10 @@
+//Group Al-Khawarizmi
 import 'dart:io';
 import 'dart:core';
 import 'poscasestudy.dart';
 
 void main() {
-  //Muhammad Silmi Bisyari line 1 - 16
+  //Muhammad Silmi Bisyari line 1 - 23
   DateTime dateTime = DateTime.now();
 
   String currdate = dateTime
