@@ -24,7 +24,7 @@ class Discount {
   void calculationdiscount(newnumber){
     newnumber.getnumber();
     newnumber.afterdiscount();
-    print("calculation : RM$after" );
+    print("Final Total : RM$ after" );
 
   }
 }
