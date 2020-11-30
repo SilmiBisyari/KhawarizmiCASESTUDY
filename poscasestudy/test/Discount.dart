@@ -35,6 +35,7 @@ class Discount {
     fine = total - (total * 36/100);
     this.after = fine;
   }
+<<<<<<< HEAD
   void printinventory(){
     for(int i = 0;i<foodlist1.length;i++){
       print("  " +foodlist1[i] + "      " + "  " + productDescription[i] + "  " +"      RM" + priceproduct[i] + "  " +"      " + eachquantity[i] + "  " +"      RM" + totaleachproductpricesandquantity[i].toString() );
@@ -42,6 +43,14 @@ class Discount {
   }
   void askQuantity(){
     eachquantity.add(getnumber());
+=======
+
+  void calculationdiscount(newnumber){
+    newnumber.getnumber();
+    newnumber.afterdiscount();
+    print("Final Total : RM$ after" );
+
+>>>>>>> e246785ef7ef3afdf21688a3bb9d2f9e4af54b14
   }
   void changesquantity() {
     for (int M = 0; M < foodlist1.length; M++) {

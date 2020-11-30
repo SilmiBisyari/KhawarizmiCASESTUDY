@@ -1,7 +1,35 @@
-library poscasestudy;
+//MUNIRAH BINTI MOHD AZIZ 1716274
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+library poscasestudy;
+import 'dart:io';
+
+class Inventory {
+  int itemID;
+  String name;
+  String description;
+  double price;
+  int quantity;
+  int buyQuantity;
+
+  Inventory(this.itemID, this.name, this.description, this.price,
+      this.quantity);
+
+  void display(){
+    print('$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t$quantity' );
+  }
+
+  void cart(){
+
+    print('\n$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t\n');
+    print('Add to Cart:');
+    buyQuantity = int.parse(stdin.readLineSync());
+  }
+
+  void receipt(){
+    if(buyQuantity>0){
+      print('$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t$buyQuantity');
+    }
+    else return;
+
+  }
 }
