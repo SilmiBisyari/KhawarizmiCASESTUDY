@@ -24,7 +24,7 @@ class Inventory {
     print('Add to Cart:');
     buyQuantity = int.parse(stdin.readLineSync());
   }
-
+//faris Asyfraaf
   void receipt(){
     if(buyQuantity>0){
       print('$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t$buyQuantity');
