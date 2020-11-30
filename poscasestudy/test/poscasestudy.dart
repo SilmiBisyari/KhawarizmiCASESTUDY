@@ -33,7 +33,7 @@ class Inventory {
 
 
   }
-//faris Asyfraaf
+//Faris Asyraaf
   void receipt(){
     if(buyQuantity>0){
       print('$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t$buyQuantity');
