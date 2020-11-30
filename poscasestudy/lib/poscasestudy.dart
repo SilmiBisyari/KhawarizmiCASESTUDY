@@ -23,6 +23,15 @@ class Inventory {
     print('\n$itemID\t\t\t$name\t\t\t$description\t\t\t$price\t\t\t\n');
     print('Add to Cart:');
     buyQuantity = int.parse(stdin.readLineSync());
+    if(buyQuantity>quantity){
+      print('NOT ENOUGH STOCK! PLEASE TRY AGAIN');
+      return cart();
+    }
+    else {
+      quantity=quantity-buyQuantity;
+    }
+
+
   }
 
   void receipt(){
